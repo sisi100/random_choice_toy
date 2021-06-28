@@ -11,8 +11,9 @@ SLACK_URL = os.getenv("SLACK_URL")
 
 GENERATE_PRESIGNED_URL_EXPIRES_IN = 12 * 60 * 60  # 12時間
 
+# MEMO:サンプルの玩具データ
 items = [
-    ["手作りのうさぎ", "img1.jpg"],
+    ["手作りのうさぎ", "img1.jpg"],  # ["玩具のなまえ", "imagesに保存した画像ファイル名"]
     ["手作りのほし", "img2.jpg"],
     ["手作りのぞう", "img3.jpg"],
 ]
